@@ -10,7 +10,7 @@ plt.plot(x, y, marker='o', color='blue', linestyle='-')
 # 3. Add labels and a title
 plt.xlabel('X Axis')
 plt.ylabel('Y Axis')
-plt.title('Simple Line Plot')
+plt.title('Simple Line Plot', fontsize=14, fontweight='bold', pad=15)
 
 # 4. Display the chart
 plt.show()
